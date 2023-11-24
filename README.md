@@ -17,13 +17,13 @@ View live demo [here](https://reactdemo.blocknative.com/)!
 Clone the repo:
 
 ```bash
-git clone https://github.com/blocknative/react-demo.git
+git clone https://github.com/aiden77mori/web3-onboard-react.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd react-demo
+cd web3-onboard-react
 ```
 
 Install the dependencies:
