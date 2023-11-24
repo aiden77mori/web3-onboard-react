@@ -84,7 +84,6 @@ const App = () => {
       provider = null
     } else {
       provider = new ethers.providers.Web3Provider(wallet.provider, 'any')
-
     }
   }, [wallet])
 
@@ -573,7 +572,10 @@ const App = () => {
                       value={toChain}
                     >
                       {chains.map(({ id, label }) => {
-                        if (label === 'Goerli' || label === 'Polygon - Mumbai') {
+                        if (
+                          label === 'Goerli' ||
+                          label === 'Polygon - Mumbai'
+                        ) {
                           return (
                             <option value={id} key={id}>
                               {label}
